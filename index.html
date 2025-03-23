@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="utf-8" />
-  <meta name="description" content="Street Calculator " />
+  <meta name="description" content="Area of triangle " />
   <meta name="keywords" content="mths, icd2o" />
   <meta name="author" content="Emre Guzel" />
   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
@@ -18,7 +18,7 @@
   <link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png">
   <link rel="manifest" href="/site.webmanifest">
   <link rel="stylesheet" href="css/style.css">
-  <title>Street Calculator</title>
+  <title>Area of triangle</title>
 </head>
 
 <body>
@@ -26,36 +26,36 @@
   <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
     <header class="mdl-layout__header">
       <div class="mdl-layout__header-row">
-        <span class="mdl-layout-title">Street Calculator</span>
+        <span class="mdl-layout-title">Area of triangle</span>
       </div>
     </header>
-    <h3 class="dimatoins">Please enter following </h3>
+    <h3 class="dimatoins">Enter the base and height in cm </h3>
     <br>
     <form action="#">
-      <p>Street number</p>
       <div class="mdl-textfield mdl-js-textfield">
-        <input class="mdl-textfield__input" type="text" pattern="-?[0-9]*(\.[0-9]+)?" id="street-number">
-        <label class="mdl-textfield__label" for="sample2">Street number</label>
+        <input class="mdl-textfield__input" type="text" pattern="-?[0-9]*(\.[0-9]+)?" id="base-of-the-triangle">
+        <label class="mdl-textfield__label" for="sample2">Base of triangle (cm)</label>
         <span class="mdl-textfield__error">Input is not a number!</span>
       </div>
-      <p>Street name</p>
-      <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-        <input class="mdl-textfield__input" type="text" id="street-name">
-        <label class="mdl-textfield__label" for="sample3">Street name</label>
+      <br><br>
+      <div class="mdl-textfield mdl-js-textfield">
+        <input class="mdl-textfield__input" type="text" pattern="-?[0-9]*(\.[0-9]+)?" id="height-of-the-triangle">
+        <label class="mdl-textfield__label" for="sample2">Height of triangle (cm)</label>
+        <span class="mdl-textfield__error">Input is not a number!</span>
       </div>
       <br>
       <main id="click-me " class="mdl-layout__content">
-        <button id="click" type="button" onclick="streetAddress()"
+        <button id="click" type="button" onclick="calculatoinOfAreaOftriangle()"
           class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect">
           Enter
         </button>
       </main>
     </form>
-    <p id="address">Your address is: </p>
+    <p id="area">Area is: </p>
 
   </div>
   <br>
-  <img class="Calculate" src="images/formula-of-retengular-prism.jpg" alt="Formula of Formula">
+  <img class="Calculate" src="images/area_of_trinagle.png" alt="Formula of rectengle">
 
   <script src="js/script.js"></script>
 </body>
