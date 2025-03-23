@@ -6,11 +6,13 @@
 
 "use strict"
 
-function calculatoinOfAreaOftriangle() {
+function CalculationOfRightRectangle() {
   // Setting the varibles
-  const baseOfTheTriangle = parseFloat(document.getElementById("base-of-the-triangle").value)
-  const heightOfTheTriangle = parseFloat (document.getElementById("height-of-the-triangle").value)
-  const calculatoinOfAreaOftriangle = (baseOfTheTriangle * heightOfTheTriangle) / 2 
+  const LengthOfRightRectangularPrism = parseFloat(document.getElementById("length-of-right-rectangular-prism").value)
+  const WidthOfRightRectangularPrism = parseFloat(document.getElementById("width-of-right-rectangular-prism").value)
+  const HeightOfRightRectangularPrism = parseFloat(document.getElementById("hegiht-of-right-rectangular-prism").value)
+  const CalculationOfRightRectangle = (LengthOfRightRectangularPrism * WidthOfRightRectangularPrism * HeightOfRightRectangularPrism)
+
   // clacualtoins 
-  document.getElementById("area").innerHTML ="Area is: " + calculatoinOfAreaOftriangle + "cm²"
+  document.getElementById("Volume").innerHTML = "Volume is: " + CalculationOfRightRectangle +  " cm³" 
 }

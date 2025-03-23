@@ -26,36 +26,45 @@
   <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
     <header class="mdl-layout__header">
       <div class="mdl-layout__header-row">
-        <span class="mdl-layout-title">Area of triangle</span>
+        <span class="mdl-layout-title"> Volime of right rectangular prism</span>
       </div>
     </header>
-    <h3 class="dimatoins">Enter the base and height in cm </h3>
+    <h3 class="dimatoins">Enter tthe Volume of right rectangular prism </h3>
     <br>
+    <p>Lenght of right rectangular prism (cm)</p>
     <form action="#">
       <div class="mdl-textfield mdl-js-textfield">
-        <input class="mdl-textfield__input" type="text" pattern="-?[0-9]*(\.[0-9]+)?" id="base-of-the-triangle">
-        <label class="mdl-textfield__label" for="sample2">Base of triangle (cm)</label>
+        <input class="mdl-textfield__input" type="text" pattern="-?[0-9]*(\.[0-9]+)?" id="length-of-right-rectangular-prism">
+        <label class="mdl-textfield__label" for="sample2"></label>
         <span class="mdl-textfield__error">Input is not a number!</span>
       </div>
       <br><br>
+      <p>Width of right rectangular prism (cm)</p>
       <div class="mdl-textfield mdl-js-textfield">
-        <input class="mdl-textfield__input" type="text" pattern="-?[0-9]*(\.[0-9]+)?" id="height-of-the-triangle">
-        <label class="mdl-textfield__label" for="sample2">Height of triangle (cm)</label>
+        <input class="mdl-textfield__input" type="text" pattern="-?[0-9]*(\.[0-9]+)?" id="width-of-right-rectangular-prism">
+        <label class="mdl-textfield__label" for="sample2"></label>
+        <span class="mdl-textfield__error">Input is not a number!</span>
+      </div>
+      <br>
+      <p>Height of right rectangular prism (cm)</p>
+      <div class="mdl-textfield mdl-js-textfield">
+        <input class="mdl-textfield__input" type="text" pattern="-?[0-9]*(\.[0-9]+)?" id="hegiht-of-right-rectangular-prism">
+        <label class="mdl-textfield__label" for="sample2"></label>
         <span class="mdl-textfield__error">Input is not a number!</span>
       </div>
       <br>
       <main id="click-me " class="mdl-layout__content">
-        <button id="click" type="button" onclick="calculatoinOfAreaOftriangle()"
+        <button id="click" type="button" onclick="CalculationOfRightRectangle()"
           class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect">
           Enter
         </button>
       </main>
     </form>
-    <p id="area">Area is: </p>
+    <p id="Volume">Volume is: </p>
 
   </div>
   <br>
-  <img class="Calculate" src="images/area_of_trinagle.png" alt="Formula of rectengle">
+  <img class="Calculate" src="images/formula-of-retengular-prism.jpg" alt="Formula of rectengle">
 
   <script src="js/script.js"></script>
 </body>
