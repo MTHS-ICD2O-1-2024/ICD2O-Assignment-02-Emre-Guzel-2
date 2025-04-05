@@ -6,13 +6,13 @@
 
 "use strict"
 
-function CalculationOfRightRectangle() {
+function calculationOfRightRectangle() {
   // Setting the varibles
-  const LengthOfRightRectangularPrism = parseFloat(document.getElementById("length-of-right-rectangular-prism").value)
-  const WidthOfRightRectangularPrism = parseFloat(document.getElementById("width-of-right-rectangular-prism").value)
-  const HeightOfRightRectangularPrism = parseFloat(document.getElementById("hegiht-of-right-rectangular-prism").value)
-  const CalculationOfRightRectangle = (LengthOfRightRectangularPrism * WidthOfRightRectangularPrism * HeightOfRightRectangularPrism)
+  const lengthOfRightRectangularPrism = parseFloat(document.getElementById("length-of-right-rectangular-prism").value)
+  const widthOfRightRectangularPrism = parseFloat(document.getElementById("width-of-right-rectangular-prism").value)
+  const heightOfRightRectangularPrism = parseFloat(document.getElementById("hegiht-of-right-rectangular-prism").value)
+  const calculationOfRightRectangle = (lengthOfRightRectangularPrism * widthOfRightRectangularPrism * heightOfRightRectangularPrism)
 
   // clacualtoins 
-  document.getElementById("Volume").innerHTML = "Volume is: " + CalculationOfRightRectangle +  " cm³" 
+  document.getElementById("Volume").innerHTML = "Volume is: " + calculationOfRightRectangle + " " +  " cm³" 
 }
